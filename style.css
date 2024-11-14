@@ -1,1 +1,34 @@
 /* Start coding here */
+h3 img {
+    width: 25px;
+    height: 25px;
+}
+
+.main-container {
+    background-image: linear-gradient(30deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 28%;
+    padding: 40px;
+    border-radius: 4px;
+
+}
+P {
+    text-align: center;
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
